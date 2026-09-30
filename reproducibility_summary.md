@@ -24,7 +24,6 @@
 |---|---|
 | Hard-coded absolute path (/content/...) | Replaced with relative path + existence check |
 | Missing dependency documentation | Added package/version table and install instructions |
-| Inconsistent column names in source file | Added standardization/rename step |
 | No random seed | Added fixed seed at top of notebook |
 | Results changed on re-run | Removed in-place mutation of shared DataFrame |
 | Broken LaTeX formatting | Corrected Markdown/LaTeX syntax |
