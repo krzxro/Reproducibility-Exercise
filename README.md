@@ -27,10 +27,10 @@ Google Colab includes all required packages by default.
 ## Dataset Requirements
 - File name: `Example Dataset_Diabetes.csv`
 - Must be placed in the **same directory** as the notebook.
-- Expected columns: `Pregnancies`, `Glucose`, `BloodPressure`,
-  `SkinThickness`, `Insulin`, `BMI`, `DiabetesPedigreeFunction`, `Age`,
+- Expected columns: `Pregnancies`, `Glucose`, `D_BP`,
+  `Skin_Thickness`, `Insulin`, `BMI`, `Pedigree`, `Age`,
   `Outcome` (binary: 0 = no diabetes, 1 = diabetes).
-- Known data quality note: `Glucose`, `BloodPressure`, `SkinThickness`,
+- Known data quality note: `Glucose`, `D_BP`, `Skin_Thickness`,
   `Insulin`, and `BMI` use `0` as a placeholder for missing values; the
   notebook converts these to `NaN` prior to analysis.
 
