@@ -39,10 +39,10 @@ Google Colab includes all required packages by default.
 2. Place `Example Dataset_Diabetes.csv` in the same folder as
    `Diabetes_Risk_Factor_Analysis.ipynb`.
 3. Open the notebook in Google Colab, Jupyter, or VS Code.
-4. Run all cells from top to bottom (recommended: **Runtime → Restart
-   session and run all** in Colab, or **Kernel → Restart & Run All** in
+4. Run all cells from top to bottom (recommended: **Runtime -> Restart
+   session and run all** in Colab, or **Kernel -> Restart & Run All** in
    Jupyter).
-5. Do not skip or reorder sections — later cells depend on variables (`df`,
+5. Do not skip or reorder sections as later cells depend on variables (`df`,
    `df_clean`) created earlier in the notebook.
 
 ## Expected Outputs
