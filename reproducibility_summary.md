@@ -12,12 +12,10 @@
 - Replaced hard-coded absolute file paths (e.g., /content/...) with a
   relative path and an explicit load_dataset() function that raises a
   clear error if the file is missing.
-- Standardized inconsistent column names found in the raw dataset
-  (D_BP, Skin_Thickness, Pedigree, Outcom) to full descriptive names.
-- Added schema validation to confirm expected columns and binary
+- Added validation to confirm expected columns and binary
   Outcome values are present before analysis proceeds.
-- Replaced placeholder zero values in Glucose, BloodPressure,
-  SkinThickness, Insulin, and BMI with NaN prior to analysis.
+- Replaced placeholder zero values in Glucose, D_BP,
+  Skin_Thickness, Insulin, and BMI with NaN prior to analysis.
 - Avoided repeated in-place modification of the original DataFrame;
   created df_clean instead so cells can be safely re-run.
 
