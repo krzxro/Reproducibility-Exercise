@@ -74,3 +74,6 @@ Google Colab includes all required packages by default.
 - All data transformations create new variables (e.g., `df_clean`) rather
   than repeatedly modifying the original DataFrame in place, so cells can be
   safely re-run without changing results.
+
+## Google Colab Notebook
+[Open in Google Colab](https://colab.research.google.com/drive/1jqwRpJGoPCQGRTt7wOQVBzc4Gc1c-yI1?usp=sharing)
